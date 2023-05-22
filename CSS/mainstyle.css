@@ -101,6 +101,7 @@ ul {
 
 .headline h1 {
   font-family: 'cocogoose', sans-serif;
+  text-align: left;
   color: #272a31;
   font-weight: 600;
   background-clip: content-box;
