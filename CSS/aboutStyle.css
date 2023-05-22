@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/cocogoose');
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0 auto;
+  background-color: #f7f7f7;
+  color: #272a31;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0.1px;
+}
+
+.header-wrapper {
+  background: url(../images/background/headerbgg.png), linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+.nav-wrapper {
+  margin-top: 1.5em;
+  padding-left: 1em;
+  position: relative;
+  top: 2%;
+  left: 2%;
+  width: fit-content;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #272a31;
+  align-content: flex-start;
+}
+
+.overlay-nav {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(211, 211, 211);
+  background-color: rgba(211, 211, 211, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-nav-content {
+  position: relative;
+  top: 15%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.overlay-nav a {
+  padding: 8px;
+  text-decoration: none;
+  color: #272a31;
+  display: block;
+  transition: 0.3s;
+}
+
+.headline-contact a {
+  text-decoration: underline;
+  color: #272a31;
+  font-weight: 700;
+}
+
+.overlay-nav a:hover,
+.overlay-nav a:focus {
+  color: white;
+}
+
+.overlay-nav .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.headline {
+  position: relative;
+  top: 2%;
+  left: 2%;
+  padding: 1em;
+}
+
+.headline h1 {
+  font-family: 'cocogoose', sans-serif;
+  text-align: center;
+  color: #272a31;
+  font-weight: 600;
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: url(/images/background/header-texture.jpg);
+}
+
+.headline h2 {
+  color: #ec5242;
+  font-weight: 600;
+  text-align: center;
+}
+
+.headline-box {
+  border-style: solid;
+  border-color: rgb(170, 170, 170);
+  border-width: 1px;
+  background-color: white;
+  margin: 1em;
+  padding: 0 0.5em;
+  text-align: center;
+  color: #272a31;
+}
+
+.headline-contact {
+  margin: 0 1em;
+  text-align: center;
+}
+
+.about-contents {
+  background: white;
+  margin-top: 0;
+  padding-top: 1em;
+}
+
+.logo-header,
+.past-summit-header {
+  color: #272a31;
+  font-size: 1.3em;
+  line-height: 1.2em;
+  text-align: center;
+  padding: 0 1em;
+}
+
+.logo-header::after,
+.past-summit-header::after,
+.partners-header::after {
+  content: '';
+  display: block;
+  position: relative;
+  height: 2px;
+  width: 40px;
+  margin: auto;
+  top: 10px;
+  border-radius: 15px;
+  background: #ec5242;
+}
+
+.logo-details,
+.past-summit-details {
+  text-align: center;
+  padding: 0.5em 1em;
+}
+
+.logo-image {
+  display: flex;
+  border: #d3d3d3 solid 1px;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin-left: 1.2em;
+  margin-right: 1.2em;
+}
+
+.logo-image img {
+  width: 90%;
+  align-self: center;
+}
+
+.past-summit {
+  border-top: #d3d3d3 solid 1px;
+  margin-top: 1.5em;
+}
+
+.summit-images-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
+}
+
+.summit-image-qatar {
+  width: 80%;
+  height: 15em;
+  background-image: url(../images/background/quatarsummit.jpg);
+  background-color: #ec5242;
+  background-size: 100%;
+  background-blend-mode: multiply;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.summit-image-khazakistan {
+  width: 80%;
+  height: 15em;
+  background-image: url(../images/background/Khazakistan.jpg);
+  background-color: #ec5242;
+  background-size: 100%;
+  background-blend-mode: multiply;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.summit-year {
+  font-size: xx-large;
+}
+
+.summit-place {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.partners {
+  background-color: #272a31;
+  width: 100%;
+  margin-top: 2em;
+  padding-top: 1.5em;
+  padding-bottom: 2.5em;
+}
+
+.partners-header {
+  color: white;
+  font-size: large;
+  text-align: center;
+}
+
+.partners-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  filter: invert(50%);
+}
+
+.partners-logo img {
+  max-height: 70px;
+}
+
+.mobile-footer {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+.mobile-footer img {
+  max-height: 50px;
+  padding-top: 10px;
+}
+
+@media (max-width: 780px) {
+  .overlay-nav { overflow-y: auto; }
+  .overlay-nav a { font-size: 1.5em; }
+
+  .overlay-nav .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
