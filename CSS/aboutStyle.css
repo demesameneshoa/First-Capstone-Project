@@ -113,7 +113,7 @@ ul {
   background-clip: content-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: url(/images/background/header-texture.jpg);
+  background-image: url(../images/background/header-texture.jpg);
 }
 
 .headline h2 {
