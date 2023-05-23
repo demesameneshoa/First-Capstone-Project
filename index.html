@@ -4,11 +4,151 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./CSS/style.css" />
-    <title>First Capstone Project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./CSS/mainstyle.css" />
+    <title>Primary Health Care 2023</title>
   </head>
   <body>
-    <p>Hello</p>
+    <header class="header-wrapper">
+      <div id="myNav" class="overlay-nav">
+        <a href="#" class="closebtn" >&times;</a>
+        <div class="overlay-nav-content">
+          <a href="./index.html">Home</a>
+          <a href="./about.html">About</a>
+          <a href="#">Program</a>
+          <a href="#">Sponsor</a>
+          <a href="#">Join</a>
+          <a href="#">News</a>
+        </div>
+      </div>
+      <div class="header-container">
+        <nav class="nav-wrapper">
+          <div class="mobile-nav">
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+          </div>
+        </nav>
+        <div class="headline">
+          <h2>"Hello and Welcome!"</h2>
+          <h1>International Conference on </br> Primary Health Care 2023</h1>
+        </div>
+        <div class="headline-box">
+          <p>
+            This two day event will take place in September 2023, featuring 18
+            speakers and more than 500 participants. The theme for the two-day
+            conference is Primary Health Care in the face of a changing world:
+            the past, present, future
+          </p>
+        </div>
+        <div class="headline-date">
+          <h3>2023.09.05(Tue) ~ 07(Thu)</h3>
+          <p>@ Hilton Hotel, Addis Ababa</p>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="main-program">
+        <div class="program-wrapper">
+          <h3 class="program-header">Main Program</h3>
+          <div class="program-container">
+            <div class="program-card">
+              <img src="./images/icons/lecture.png" alt="Lecture" />
+              <h3 class="program-title">Lecture</h3>
+              <p class="program-desc">
+                Listen to the speakers from various countries about the messages
+                of sharing and opening.
+              </p>
+            </div>
+            <div class="program-card">
+              <img src="./images/icons/exhibition.png" alt="Exhibition" />
+              <h3 class="program-title">CC Exhibition</h3>
+              <p class="program-desc">
+                Appreciate various creations applying CC license of artists,
+                organized from Art Center Nabi.
+              </p>
+            </div>
+            <div class="program-card">
+              <img src="./images/icons/forum.png" alt="forum" />
+              <h3 class="program-title">Forum</h3>
+              <p class="program-desc">
+                Have the time to share your thoughts and opininons with experts
+                for each topic
+              </p>
+            </div>
+            <div class="program-card">
+              <img src="./images/icons/workshop.png" alt="workshop" />
+              <h3 class="program-title">Workshop</h3>
+              <p class="program-desc">
+                Try creating your own work using open source license rather than
+                just watching
+              </p>
+            </div>
+            <div class="program-card">
+              <img src="./images/icons/network.png" alt="network" />
+              <h3 class="program-title">CC Ignite</h3>
+              <p class="program-desc">
+                Get opportunities to network with CC affiliates around the
+                world, also after the summit
+              </p>
+            </div>
+            <button class="join-button">
+              <a href="#">Join Primary Health Care 2023</a>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="speakers">
+        <div class="speakers-wrapper">
+          <h2 class="speakers-header">Featured Speakers</h2>
+          <div class="speakers-container">
+            <div class="speaker-card">
+              <div class="speaker-image">
+                <img src="./images/speakers/speaker1.png" alt="speaker image" />
+              </div>
+              <div class="speaker-details">
+                <h3 class="speaker-name">Yochai Benkler</h3>
+                <p class="speaker-title">
+                  Berkman Professor of Enterpreneurial Legal Studies at Harvard
+                  Law School
+                </p>
+                <p class="speaker-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                  commodi pariatur exercitationem adipisci
+                </p>
+              </div>
+            </div>
+            <div class="speaker-card">
+              <div class="speaker-image">
+                <img src="./images/speakers/speaker2.png" alt="speaker image" />
+              </div>
+              <div class="speaker-details">
+                <h3 class="speaker-name">Yochai Benkler</h3>
+                <p class="speaker-title">
+                  Berkman Professor of Enterpreneurial Legal Studies at Harvard
+                  Law School
+                </p>
+                <p class="speaker-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                  commodi pariatur exercitationem adipisci
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="button-container">
+            <button class="speaker-btn">
+              MORE <i class="fa fa-chevron-down"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
     <script src="./JS/script.js"></script>
   </body>
 </html>
