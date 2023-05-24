@@ -70,7 +70,7 @@ ul {
 .overlay-nav a {
   padding: 8px;
   text-decoration: none;
-  color:#ec4327;
+  color: #ec4327;
   display: block;
   transition: 0.3s;
 }
@@ -218,7 +218,7 @@ ul {
 
 .speakers-header {
   text-align: center;
-  color:#272a31;
+  color: #272a31;
 }
 
 .speakers-header::after {
@@ -316,7 +316,6 @@ ul {
   .desktop-footer {
     display: none;
   }
-
 }
 
 @media (min-width: 768px) {
@@ -336,18 +335,18 @@ ul {
     gap: 10px;
     padding-right: 4em;
   }
-  
+
   .desktop-nav {
     background: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 0em 10em 0em 10em;
+    padding: 0 10em 0 10em;
     gap: 12em;
   }
 
-   .desktop-nav a {
+  .desktop-nav a {
     color: #868686;
   }
 
@@ -363,9 +362,9 @@ ul {
 
   .desktop-nav-list li a:hover {
     color: #ec4327;
-  } 
+  }
 
-  .banner-logo img{
+  .banner-logo img {
     max-height: 3em;
   }
 
@@ -379,7 +378,7 @@ ul {
     color: #ec4327;
     font-weight: 800;
   }
-  
+
   .headline {
     margin-left: 4em;
   }
@@ -404,7 +403,7 @@ ul {
 
   .desktop-program-link {
     padding-top: 3em;
-    padding-bottom: 2em ;
+    padding-bottom: 2em;
     align-self: center;
     text-align: center;
     text-decoration: underline;
@@ -453,13 +452,13 @@ ul {
     padding-left: 6em;
     padding-right: 6em;
   }
-  
+
   .partners-header {
     color: white;
     font-size: large;
     text-align: center;
   }
-  
+
   .partners-logo {
     display: flex;
     flex-direction: row;
@@ -468,11 +467,11 @@ ul {
     filter: invert(50%);
     align-items: center;
   }
-  
+
   .partners-logo img {
     max-height: 70px;
   }
-  
+
   .partners-header::after {
     content: '';
     display: block;
