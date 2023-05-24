@@ -20,44 +20,44 @@ closeBtn.addEventListener('click', () => {
 const speakersList = [
   {
     imgUrl: './images/speakers/speaker1.png',
-    speakerName: 'Yochai Benkler',
-    speakerTitle: 'Benkler Professor of Software Engineering at Massachusetts Institute of Technology',
-    speakerDesc: 'Benkler studies Software Engineering and Software Architecture, and published the best seller book Software Architecture Principles and Practices in 2018.',
+    speakerName: 'DR. RUSLI BIN NORDIN',
+    speakerTitle: 'Head of School of Medicine ',
+    speakerDesc: 'Faculty of Health and Medical Sciences Taylors University Malaysia',
   },
 
   {
     imgUrl: './images/speakers/speaker2.png',
-    speakerName: 'SohYeong Noh',
-    speakerTitle: 'Noh Professor of Software Engineering at Massachusetts Institute of Technology',
-    speakerDesc: 'Noh studies Software Engineering and Software Architecture, and published the best seller book Software Architecture Principles and Practices in 2018.',
+    speakerName: 'DR. FORHAD AKHTAR ZAMAN ',
+    speakerTitle: 'Dept of Community Medicine',
+    speakerDesc: 'Sikkim Manipal Institute of Medical Sciences India',
   },
 
   {
     imgUrl: './images/speakers/speaker3.png',
-    speakerName: 'SohYeong Noh',
-    speakerTitle: 'Noh Professor of Software Engineering at Massachusetts Institute of Technology',
-    speakerDesc: 'Noh studies Software Engineering and Software Architecture, and published the best seller book Software Architecture Principles and Practices in 2018.',
+    speakerName: 'PROF. ZAILINA HASHIM',
+    speakerTitle: 'Director of University Putra Malaysia',
+    speakerDesc: 'Professor & The Director, Centre of Excellence Environmental & Occupational Health',
   },
 
   {
     imgUrl: './images/speakers/speaker4.png',
-    speakerName: 'SohYeong Noh',
-    speakerTitle: 'Noh Professor of Software Engineering at Massachusetts Institute of Technology',
-    speakerDesc: 'Noh studies Software Engineering and Software Architecture, and published the best seller book Software Architecture Principles and Practices in 2018.',
+    speakerName: 'PROF. PEI LIN LUA',
+    speakerTitle: 'Research Leader of Psychosocial Research In Epilepsy',
+    speakerDesc: 'Universiti Sultan Zainal Abidin (UniSZA) Malaysia',
   },
 
   {
     imgUrl: './images/speakers/speaker5.png',
-    speakerName: 'SohYeong Noh',
-    speakerTitle: 'Noh Professor of Software Engineering at Massachusetts Institute of Technology',
-    speakerDesc: 'Noh studies Software Engineering and Software Architecture, and published the best seller book Software Architecture Principles and Practices in 2018.',
+    speakerName: 'PROF. HALA MADANAT',
+    speakerTitle: 'Director of the School of Public Health',
+    speakerDesc: 'Director of the School of Public Health San Diego State University United States',
   },
 
   {
     imgUrl: './images/speakers/speaker6.png',
-    speakerName: 'SohYeong Noh',
-    speakerTitle: 'Noh Professor of Software Engineering at Massachusetts Institute of Technology',
-    speakerDesc: 'Noh studies Software Engineering and Software Architecture, and published the best seller book Software Architecture Principles and Practices in 2018.',
+    speakerName: 'PROFESSOR DANIEL REIDPATH',
+    speakerTitle: 'Professor Monash University Malaysia',
+    speakerDesc: 'Research author of Giving up. What is the measure of a healthy life in the era of sustainability?',
   },
 
 ];
@@ -67,9 +67,9 @@ const speakerCard = (index) => `
                 <img src=${speakersList[index].imgUrl} alt="src=${speakersList[index].speakerName} image" />
               </div>
               <div class="speaker-details">
-                <h3 class="speaker-name">${speakersList[index].speakerName} image</h3>
+                <h3 class="speaker-name">${speakersList[index].speakerName} </h3>
                 <p class="speaker-title">
-                src=${speakersList[index].speakerTitle} image
+                ${speakersList[index].speakerTitle} 
                 </p>
                 <p class="speaker-desc">
                 ${speakersList[index].speakerDesc}

@@ -45,9 +45,6 @@ HTML,CSS and Javascript
   <summary>JavaScript</summary>
 </details>
 <details>
-  <summary>Flexbox</summary>
-</details>
-<details>
 <summary>Visual Code IDE</summary>
 </details>
 
@@ -55,19 +52,17 @@ HTML,CSS and Javascript
 
 ### Key Features <a name="key-features"></a>
 
-- **[Flexbox Headers Section]**
+- **[Mobile and Desktop Versions Deployed]**
+- **[Mobile Menu Deployed With Java Script]**
+- **[Mobile and Desktop Versions Deployed]**
+- **[Speakers Section Populated with JavaScript]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 <p>For Live demo click
-<a href="#"> here </a></p>
-
-## Project Outline Video <a name="project-outline"></a>
-
-<p>To watch my project outline video click  
-<a href="#"> here </a></p>
+<a href="https://demesameneshoa.github.io/First-Capstone-Project/"> here </a></p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -110,7 +105,7 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Including Additional Responsiveness Screen BreakPoints
+- Including Additional Responsiveness Screen BreakPoints
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,6 +123,7 @@ If you like this project Please Rate IT!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+I would like to acknowledge <a href="https://www.behance.net/adagio07">Cindy Shin</a> who is the author of the original <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015"> design</a> which is required by the <a href=" https://creativecommons.org/licenses/ ">Creative Commons License</a>
 I would like to thank everyone at Miroverse
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
