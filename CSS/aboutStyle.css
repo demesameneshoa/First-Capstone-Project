@@ -18,15 +18,10 @@ ul {
   padding-left: 0.1px;
 }
 
-.header-wrapper {
-  background: url(../images/background/headerbgg.png), linear-gradient(rgba(217, 217, 217, 0.8), rgba(217, 217, 217, 0.8));
-  background-size: cover;
-  background-blend-mode: overlay;
-}
-
 .nav-wrapper {
-  margin-top: 1.5em;
+  padding-top: 1.5em;
   padding-left: 1em;
+  padding-bottom: 0;
   position: relative;
   top: 2%;
   left: 2%;
@@ -93,9 +88,20 @@ ul {
   font-size: 60px;
 }
 
+.header-wrapper {
+  background: #dfdddd;
+  background-size: 100%;
+  margin-bottom: -5px;
+}
+
 .header-container {
+  background: url(../images/background/headerbgg.png), linear-gradient(rgba(217, 217, 217, 0.8), rgba(217, 217, 217, 0.8));
+  background-size: cover;
+  background-blend-mode: overlay;
   display: flex;
   flex-direction: column;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .headline {
@@ -364,6 +370,10 @@ ul {
     padding-right: 5px;
     color: #ec4327;
     font-weight: 800;
+  }
+
+  .header-wrapper {
+    margin-bottom: 0;
   }
 
   .headline h2 {

@@ -18,15 +18,10 @@ ul {
   padding-left: 0.1px;
 }
 
-.header-wrapper {
-  background: url(../images/background/headerbgg.png), linear-gradient(rgba(217, 217, 217, 0.8), rgba(217, 217, 217, 0.8));
-  background-size: cover;
-  background-blend-mode: overlay;
-}
-
 .nav-wrapper {
-  margin-top: 1.5em;
+  padding-top: 1.5em;
   padding-left: 1em;
+  padding-bottom: 0;
   position: relative;
   top: 2%;
   left: 2%;
@@ -87,9 +82,20 @@ ul {
   font-size: 60px;
 }
 
+.header-wrapper {
+  background: #dfdddd;
+  background-size: 100%;
+  margin-bottom: -5px;
+}
+
 .header-container {
+  background: url(../images/background/headerbgg.png), linear-gradient(rgba(217, 217, 217, 0.8), rgba(217, 217, 217, 0.8));
+  background-size: cover;
+  background-blend-mode: overlay;
   display: flex;
   flex-direction: column;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .headline {
@@ -124,6 +130,7 @@ ul {
   padding: 0 0.5em;
   text-align: center;
   color: #515151;
+  width: 85%;
 }
 
 .headline-date {
@@ -220,6 +227,8 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 1.5em;
+  align-items: flex-start;
+  justify-content: start;
 }
 
 .speakers-wrapper {
@@ -353,7 +362,7 @@ ul {
     justify-content: center;
     align-items: center;
     padding: 0 10em 0 10em;
-    gap: 12em;
+    gap: 15%;
   }
 
   .desktop-nav a {
@@ -368,6 +377,10 @@ ul {
     align-items: center;
     font-weight: 800;
     font-size: 14px;
+  }
+
+  .header-wrapper {
+    margin-bottom: 0;
   }
 
   .desktop-nav-list li a:hover {
@@ -440,7 +453,7 @@ ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     gap: 1.5em;
     padding-left: 8em;
     padding-right: 8em;
@@ -448,6 +461,7 @@ ul {
 
   .speaker-card {
     max-width: 70%;
+    justify-self: left;
   }
 
   .button-container {
