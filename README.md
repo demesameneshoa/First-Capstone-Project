@@ -10,6 +10,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [🚀 Live Video](#live-video)
   - [Project Outline](#project-outline)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -63,7 +64,10 @@ HTML,CSS and Javascript
 
 <p>For Live demo click
 <a href="https://demesameneshoa.github.io/First-Capstone-Project/"> here </a></p>
+## 🚀 Live Video <a name="live-video"></a>
 
+<p>For Live video presentation click
+<a href="https://drive.google.com/file/d/1DU4Ztuus3DhZsPDoy4M3SSuC9o45j9Qn/view?usp=sharing"> here </a></p>
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
